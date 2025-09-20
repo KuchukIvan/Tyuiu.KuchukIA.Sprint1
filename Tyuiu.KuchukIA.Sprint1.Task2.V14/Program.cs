@@ -29,6 +29,7 @@ internal class Program
         Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
         Console.WriteLine("***************************************************************************");
         Console.WriteLine("Температура в градусах Цельсия равна: " + ds.ConvertKelvinToCelsius(x));
+
         Console.ReadKey();
 
     }
