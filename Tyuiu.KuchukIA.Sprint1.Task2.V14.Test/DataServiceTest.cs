@@ -10,7 +10,7 @@ namespace Tyuiu.KuchukIA.Sprint1.Task2.V14.Test
             DataService ds = new DataService();
             int x = 400;
             var res = ds.ConvertKelvinToCelsius(x);
-            Assert.AreEqual(126, res);
+            Assert.AreEqual(127, res);
         }
     }
 }
