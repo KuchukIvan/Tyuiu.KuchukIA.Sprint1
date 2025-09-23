@@ -18,7 +18,7 @@ namespace Tyuiu.KuchukIA.Sprint1.Task6.V4.Lib
                 
             }
             
-            return string.Join(", ", foundWords);
+            return string.Join(" ", foundWords);
             
         }
         
