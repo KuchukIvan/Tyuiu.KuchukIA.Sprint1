@@ -5,7 +5,7 @@ namespace Tyuiu.KuchukIA.Sprint1.Task7.V6.Lib
     {
         public double Calculate(double x, double y)
         {
-            double res = Math.Pow((1 + 1 / Math.Pow(x, 2)), 2) - 12 * Math.Pow(x, 2) * y;
+            double res = Math.Round(Math.Pow((1 + 1 / Math.Pow(x, 2)), 2) - 12 * Math.Pow(x, 2) * y, 3);
             return res;
         }
     }
