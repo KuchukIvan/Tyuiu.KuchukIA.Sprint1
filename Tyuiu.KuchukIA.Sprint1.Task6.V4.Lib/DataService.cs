@@ -1,5 +1,4 @@
 ﻿using tyuiu.cources.programming.interfaces.Sprint1;
-using System.Collections.Generic;
 namespace Tyuiu.KuchukIA.Sprint1.Task6.V4.Lib
 {
     public class DataService : ISprint1Task6V4
